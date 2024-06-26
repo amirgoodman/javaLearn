@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abbb34ac-7ba9-4c93-880f-ba45ed99e8ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson/lesson1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson/lessonOneEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MutableAndImmutableObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/project/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/lesson/Lesson1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/oop/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/oop/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/oop/HasAExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/oop/Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/oop/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/oop/IsAExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/oop/Polymorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/strategy/ConcreteStrategyCs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/strategy/ConcreteStrategyDota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/strategy/ConcreteStrategyPubg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/strategy/GameContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/week1/strategy/Strategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson/lesson1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson/lessonOneEnd.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,52 +50,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DateTimeAPIExample.executor": "Run",
-    "Application.DiamondSyntaxExample (1).executor": "Run",
-    "Application.ForkJoinExample.executor": "Run",
-    "Application.LambdaExample.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.StreamAPIExample.executor": "Run",
-    "Application.StringRepeatExample.executor": "Run",
-    "Application.SwitchStringExample.executor": "Run",
-    "Application.lesson1.executor": "Run",
-    "Application.lessonOneEnd.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/BCC User/IdeaProjects/JavaCourse/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Abstraction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateTimeAPIExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiamondSyntaxExample (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Experiment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForkJoinExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HasAExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamAPIExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringRepeatExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchStringExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lessonOneEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.week1.lesson.Lesson1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/BCC User/IdeaProjects/JavaCourse/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lesson" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lessonOneEnd">
-    <configuration name="DiamondSyntaxExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.week1.java7.DiamondSyntaxExample" />
+  <component name="RunManager" selected="Application.main">
+    <configuration name="Abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.week1.oop.Abstraction" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.week1.java7.*" />
+          <option name="PATTERN" value="org.example.week1.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,38 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiamondSyntaxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.week1.java7.DiamondSyntaxExample" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.week1.java7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwitchStringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.week1.java7.SwitchStringExample" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.week1.java7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson.lesson1" />
+    <configuration name="Experiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.week1.oop.Experiment" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson.*" />
+          <option name="PATTERN" value="org.example.week1.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +123,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lessonOneEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson.lessonOneEnd" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.week1.oop.Main" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson.*" />
+          <option name="PATTERN" value="org.example.week1.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.week1.strategy.main" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.week1.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.week1.lesson.Lesson1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.week1.lesson.Lesson1" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.week1.lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lessonOneEnd" />
-        <item itemvalue="Application.lesson1" />
-        <item itemvalue="Application.DiamondSyntaxExample (1)" />
-        <item itemvalue="Application.SwitchStringExample" />
-        <item itemvalue="Application.DiamondSyntaxExample" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Experiment" />
+        <item itemvalue="Application.Abstraction" />
+        <item itemvalue="Application.org.example.week1.lesson.Lesson1" />
       </list>
     </recent_temporary>
   </component>
@@ -178,18 +201,58 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson/lessonOneEnd.java</url>
-          <line>7</line>
-          <properties class="lesson.lessonOneEnd" method="main">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/week1/oop/HasAExample.java</url>
+          <line>105</line>
+          <properties class="org.example.week1.oop.Example" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson/lessonOneEnd.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/week1/lesson/Lesson1.java</url>
           <line>8</line>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/week1/oop/HasAExample.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/week1/oop/HasAExample.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/week1/oop/HasAExample.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/week1/oop/Abstraction.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/week1/oop/Abstraction.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/week1/strategy/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="15" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/week1/oop/HasAExample.java</url>
+          <line>93</line>
+          <properties field="author" class="org.example.week1.oop.Book" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
